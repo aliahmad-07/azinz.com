@@ -17,11 +17,11 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <section className="w-full px-21 py-24">
-      <div className="max-w-358 mx-auto flex items-center justify-between">
-        {/* Left column */}
-        <div className=" max-w-151.25 flex flex-col gap-6">
-          <h2 className="font-semibold text-[50px] leading-[1.1] text-brand-navy">
+    <section className="w-full px-21 py-21">
+      <div className="max-w-358 mx-auto flex items-center justify-between gap-16 flex-wrap lg:flex-nowrap">
+       
+        <div className=" flex-1 min-w-[320px] flex flex-col gap-6">
+          <h2 className="font-semibold text-[64px] leading-[1.1] text-brand-navy">
             Everything You Need, in One Secure Platform
           </h2>
           <p className="text-base text-gray-600">
@@ -42,7 +42,7 @@ export default function FeatureSection() {
           </div>
           <div className="w-[726px] h-[600px] relative shrink-0 rounded-[32px] bg-brand-light-blue overflow-hidden">
             <Image
-            src="/image 24.png"
+            src="/image-24.png"
             alt="Azina Health dashboard"
             width={700}
             height={600}

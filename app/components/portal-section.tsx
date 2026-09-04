@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function PortalsSection() {
   return (
-    <section className="w-full px-21 py-24">
-      <div className="max-w-358 mx-auto flex flex-col items-center text-center gap-4">
+    <section className="w-full px-21 py-21">
+      <div className="max-w-358 mx-auto flex flex-col items-center text-center gap-8">
         <span className="text-xl font-semibold text-brand-blue">
           Our portals
         </span>
-        <h2 className="max-w-[1189px font-semibold text-[50px] leading-[1.1] text-brand-navy">
+        <h2 className="w-[1189px] font-semibold text-[64px] leading-[1.1] text-center text-brand-navy">
           Stay one step ahead with our web portals & get advance features.
         </h2>
       </div>
