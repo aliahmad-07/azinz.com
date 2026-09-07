@@ -1,17 +1,18 @@
+
 export default function BusyPractitionersSection() {
     return (
-        <section className="w-full px-21 py-21">
-            <div className="max-w-358 mx-auto flex flex-col gap-11">
-                <div className="flex flex-col gap-8">
-                    <span className="text-xl font-semibold text-brand-blue">
+        <section className="w-full px-4 sm:px-6 lg:px-21 py-10 lg:py-18">
+            <div className="max-w-358 mx-auto flex flex-col gap-8 lg:gap-11">
+                <div className="flex flex-col gap-6 lg:gap-8">
+                    <span className="text-lg lg:text-xl font-semibold text-brand-blue">
                         Numerics
                     </span>
-                    <h2 className="text-[64px] font-semibold leading-[1.1] text-black">
+                    <h2 className="text-3xl sm:text-4xl lg:text-[64px] font-semibold leading-[1.15] lg:leading-[1.1] text-black">
                         Powerful Tools for Busy Practitioners
                     </h2>
                 </div>
-                <div className="grid grid-cols-3 gap-x-16 gap-y-10">
-                    <div className="flex flex-col gap-4 p-6 -m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 lg:gap-x-16 gap-y-8 lg:gap-y-10">
+                    <div className="flex flex-col gap-4 p-4 sm:p-6 -m-4 sm:-m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
                         <span className="text-xl font-semibold leading-[1.1] text-black">
                             Unified Dashboard
                         </span>
@@ -19,7 +20,7 @@ export default function BusyPractitionersSection() {
                             View your appointments, tasks, and patient alerts in one place.
                         </p>
                     </div>
-                     <div className="flex flex-col gap-4 p-6 -m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
+                     <div className="flex flex-col gap-4 p-4 sm:p-6 -m-4 sm:-m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
                         <span className="text-xl font-semibold leading-[1.1] text-black">
                             Quick Booking
                         </span>
@@ -27,7 +28,7 @@ export default function BusyPractitionersSection() {
                             Real-time scheduling, drag-and-drop rescheduling, and automated confirmations.
                         </p>
                     </div>
-                     <div className="flex flex-col gap-4 p-6 -m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
+                     <div className="flex flex-col gap-4 p-4 sm:p-6 -m-4 sm:-m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
                         <span className="text-xl font-semibold leading-[1.1] text-black">
                             Prescription Management
                         </span>
@@ -35,7 +36,7 @@ export default function BusyPractitionersSection() {
                             Issue, track, and repeat prescriptions from within the patient record.
                         </p>
                     </div>
-                     <div className="flex flex-col gap-4 p-6 -m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
+                     <div className="flex flex-col gap-4 p-4 sm:p-6 -m-4 sm:-m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
                         <span className="text-xl font-semibold leading-[1.1] text-black">
                             Patient Records
                         </span>
@@ -43,7 +44,7 @@ export default function BusyPractitionersSection() {
                         Searchable, secure, and always up to date.
                         </p>
                     </div>
-                     <div className="flex flex-col gap-4 p-6 -m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
+                     <div className="flex flex-col gap-4 p-4 sm:p-6 -m-4 sm:-m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
                         <span className="text-xl font-semibold leading-[1.1] text-black">
                             Telehealth Integration
                         </span>
@@ -51,7 +52,7 @@ export default function BusyPractitionersSection() {
                             Secure video calls and encrypted messaging.
                         </p>
                     </div>
-                     <div className="flex flex-col gap-4 p-6 -m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
+                     <div className="flex flex-col gap-4 p-4 sm:p-6 -m-4 sm:-m-6 rounded-2xl transition-shadow hover:shadow-lg hover:bg-white">
                         <span className="text-xl font-semibold leading-[1.1] text-black">
                             Reports & Insight
                         </span>

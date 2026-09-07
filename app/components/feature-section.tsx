@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 const features = [
@@ -17,11 +18,11 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <section className="w-full px-21 py-21">
-      <div className="max-w-358 mx-auto flex items-center justify-between gap-16 flex-wrap lg:flex-nowrap">
-       
-        <div className=" flex-1 min-w-[320px] flex flex-col gap-6">
-          <h2 className="font-semibold text-[64px] leading-[1.1] text-brand-navy">
+    <section className="w-full px-4 sm:px-6 lg:px-21 py-10 lg:py-18">
+      <div className="max-w-358 mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16">
+
+        <div className="flex-1 min-w-0 lg:min-w-[320px] flex flex-col gap-6">
+          <h2 className="font-semibold text-3xl sm:text-4xl lg:text-[64px] leading-[1.15] lg:leading-[1.1] text-brand-navy">
             Everything You Need, in One Secure Platform
           </h2>
           <p className="text-base text-gray-600">
@@ -39,17 +40,18 @@ export default function FeatureSection() {
           <button className="w-fit h-12 px-5 rounded-lg bg-brand-blue text-white text-sm font-medium mt-2">
             Get Started Now
           </button>
-          </div>
-          <div className="w-[726px] h-[600px] relative shrink-0 rounded-[32px] bg-brand-light-blue overflow-hidden">
-            <Image
+        </div>
+
+        <div className="w-full max-w-[726px] aspect-[726/600] lg:h-[600px] relative shrink-0 rounded-2xl lg:rounded-[32px] bg-brand-light-blue overflow-hidden">
+          <Image
             src="/image-24.png"
             alt="Azina Health dashboard"
-            width={700}
-            height={600}
-            className="absolute top-10 left-10 w-[700px] h-[600px] object-contain"
-            />
-            </div>
-            </div>
-            </section>
+            fill
+            className="object-contain p-6 sm:p-8 lg:p-10"
+          />
+        </div>
+
+      </div>
+    </section>
   );
 }
