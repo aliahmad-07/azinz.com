@@ -14,15 +14,15 @@ export default function CommentsSection() {
           </h2>
         </div>
 
-        <div className="w-full xl:w-[948px] grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-x-5 xl:gap-y-11">
-          <div className="w-full bg-white rounded-2xl lg:rounded-[24px] p-6 sm:p-10 shadow-[0_4px_56px_0_rgba(1,17,24,0.12)] flex flex-col gap-6 lg:gap-10">
-            <div className="flex gap-2">
+        <div className="w-full xl:w-[948px] grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-6">
+          <div className="w-full bg-white rounded-2xl lg:rounded-[24px] p-6 sm:p-10 shadow-[0_4px_56px_0_rgba(1,17,24,0.12)] flex flex-col gap-6 lg:gap-6">
+            <div className="flex gap-1">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-black text-black" />
               ))}
             </div>
             <p className="text-gray-500 text-base">
-              Azina Health has cut our admin time in half. We can focus more on patient care instead of chasing paperwork.
+              &quot;Azina Health has cut our admin time in half. We can focus more on patient care instead of chasing paperwork.&quot;
             </p>
             <div>
               <p className="font-semibold text-xl">Dr. A. Khan, GP</p>
@@ -31,7 +31,7 @@ export default function CommentsSection() {
           </div>
 
           <div className="w-full bg-white rounded-2xl lg:rounded-[24px] p-6 sm:p-10 shadow-[0_4px_56px_0_rgba(1,17,24,0.12)] flex flex-col gap-6 lg:gap-10">
-            <div className="flex gap-2">
+            <div className="flex gap-1">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-black text-black" />
               ))}
@@ -46,13 +46,15 @@ export default function CommentsSection() {
           </div>
 
           <div className="w-full bg-white rounded-2xl lg:rounded-[24px] p-6 sm:p-10 shadow-[0_4px_56px_0_rgba(1,17,24,0.12)] flex flex-col gap-6 lg:gap-10">
-            <div className="flex gap-2">
+            <div className="flex gap-1">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-black text-black" />
               ))}
             </div>
             <p className="text-gray-600 text-base">
-              Azina Health has made it so easy to keep track of my patients, whether they&apos;re in person. Everything&apos;s synced and up to date.
+              <p className="text-gray-600 text-base">
+                &quot;Azina Health has made it so easy to keep track of my patients, whether they book online or in person. Everything&apos;s synced and organised.&quot;
+              </p>
             </p>
             <div>
               <p className="font-semibold text-xl">Dr. Emily Rogers</p>
@@ -61,7 +63,7 @@ export default function CommentsSection() {
           </div>
 
           <div className="w-full bg-white rounded-2xl lg:rounded-[24px] p-6 sm:p-10 shadow-[0_4px_56px_0_rgba(1,17,24,0.12)] flex flex-col gap-6 lg:gap-10">
-            <div className="flex gap-2">
+            <div className="flex gap-1">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-black text-black" />
               ))}
